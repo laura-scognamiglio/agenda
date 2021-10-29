@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.page{
+    background-color: #2E332C;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  0.5fr 1fr 1fr 0.5fr;  
+}
+
+.logo{
+    background-color: #DED0A3;
+    color: #2E332C;  
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.carnet{
+    width: 20%;
+    
+}
+.carnet:hover{
+    width: 25%;
+    transition: 0.7s;
+}
+
+ .nav{
+     background-color: #b08968;
+     color: #2E332C;
+     grid-row: 1 / 2;
+     grid-column: 2 / 5;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .menu{
+     width: 40%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .nav a{
+    width: 80%;
+    color: #2E332C;
+    font-size: 1.2em;
+    
+ }
+ .nav a:hover{
+     color: #ddbea9;
+     transition: 0.5s;
+ }
+
+ .horaire{
+     background-color: #DED0A3;
+     background-image: url(/assets/papier.svg);
+     color: #2E332C;
+     grid-column: 2 / 5;
+     grid-row: 2 / 4;
+     border-spacing: 0;
+     border-collapse: collapse;
+   
+ }
+
+ .struct{
+     width: 100%;
+     height: 100%;
+     padding-left: 1%;
+     padding-right: 1%;
+     border-spacing: 0;
+     border-collapse: collapse;
+     
+ }
+.struct th{
+    width: 20vh;
+}
+
+.struct tr td{
+     color: #2E332C;
+     
+     border-spacing: 0;
+     border-collapse: collapse;
+     
+}
+/* .struct thead tr th{
+    width: 100%;
+} */
+
+.struct tr {
+     width: 5vw; 
+     border-left: none;
+     border-right: none;
+     border-top: none;
+     border: solid 0.1px #EEE4C4;
+}
+
+ .calendrier {
+     background-color: #2E332C;
+     background-image: url(/assets/board.svg);
+     background-size: cover;
+     color: transparent;
+     color: #ddbea9;
+     grid-row: 2 / 5;
+     grid-column: 1 / 2;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+    
+
+ }
+ .cat{
+     display: flex;
+     flex-direction: row;
+     margin: 2%;
+     align-items: flex-start;
+     
+ }
+
+.categorie{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+    
+}
+ .sportc{
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #9b9b7a;
+    
+    
+}
+.medecinc{
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #cb997e;
+}
+
+.enfantc{
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #b7b7a4;
+}
+.persoc{
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #b58463;
+} 
+
+.cat {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.btn{
+    width: 15%;
+    align-items: center;
+}
+.btn img{
+    margin-top: 6%;
+    flex-direction: row-reverse;
+    
+}
+
+.btn img:hover{
+    animation: rotation 1s ease 0s 1 normal none;
+    cursor: pointer;
+}
+
+@keyframes rotation{
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+.footer {
+     background-color: #b08968;
+     color: #2E332C;
+     grid-row: 4 / 5;
+     grid-column: 2 / 5;
+ }
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+ 
+ .medecin { 
+     background-color: #cb997e;
+    
+ }
+
+.sport {
+    background-color: #9b9b7a;
+}
+ 
+ 
+.enfant {
+    background-color:  #b7b7a4;
+}
+
+.perso {
+    background-color: #b58463;
+}
+
+
+.footer{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.ccinsta, .cctwit, .ccfb{
+    width: 8%;
+}
+.body_form{
+    background-image: url(/assets/papier.svg);
+    background-size: cover;
+    background-color: #b58463;
+
+    
+}
+
+.titre_form p{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 2em;
+}
+.mise_en_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.cat_formulaire{
+    width: 60%;
+    height: 60%;
+    font-family: 'Zen Old Mincho', serif;
+   
+}
+
+.btn_form{
+    margin-top: 2%;
+    width: 5%;
+    box-shadow: 1%;
+
+}
+
+
