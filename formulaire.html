@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">  
+    <title>Formulaire</title>
+</head>
+<body class="body_form">
+    <header class="nav">
+        <nav class="menu">
+            <a href="agenda.html">agenda</a>
+            <a href="#">rdv</a>
+            <a href="#">favoris</a>
+        </nav>
+
+    </header>
+    <main class="main_form">
+        <section class="titre_formulaire">
+            <div class="titre_form">
+                <p>Nouveau rendez-vous</p>
+            <div>
+        </section>
+        <section class="mise_en_page"> 
+            <form action="/ma-page-de-traitement" method="post">
+                
+                    <label for="name">Titre:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">Date :</label>
+                    <input type="date" id="date" name="user_date">
+                </div>
+                <p>
+                    <input type="checkbox" id="cat_1" name="cat_sport" value="sport">
+                    <label for="cat_1">sport</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="cat_2" name="cat_med" value="medecin">
+                    <label for="cat_2">médecins</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="cat_3" name="cat_enfant" value="enfant">
+                    <label for="cat_3">enfant</label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="cat_2" name="cat_med" value="medecin">
+                    <label for="cat_2">médecins</label>
+                  </p>
+                <div>
+                    <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </form>
+            <div class="btn_form">  
+                <input type="image" id="image" alt="Login"
+                src="assets/btnplus.svg">
+            </div>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
