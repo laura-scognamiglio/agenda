@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 50 50">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+</metadata>
+<defs/>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path d="M16+3C8.83248+3+3+8.83248+3+16L3+34C3+41.1675+8.83248+47+16+47L34+47C41.1675+47+47+41.1675+47+34L47+16C47+8.83248+41.1675+3+34+3L16+3ZM16+5L34+5C40.0865+5+45+9.91352+45+16L45+34C45+40.0865+40.0865+45+34+45L16+45C9.91352+45+5+40.0865+5+34L5+16C5+9.91352+9.91352+5+16+5ZM37+11C35.8954+11+35+11.8954+35+13C35+14.1046+35.8954+15+37+15C38.1046+15+39+14.1046+39+13C39+11.8954+38.1046+11+37+11ZM25+14C18.9367+14+14+18.9367+14+25C14+31.0633+18.9367+36+25+36C31.0633+36+36+31.0633+36+25C36+18.9367+31.0633+14+25+14ZM25+16C29.9824+16+34+20.0176+34+25C34+29.9824+29.9824+34+25+34C20.0176+34+16+29.9824+16+25C16+20.0176+20.0176+16+25+16Z" opacity="1" fill="#ddbea9"/>
+</g>
+</svg>

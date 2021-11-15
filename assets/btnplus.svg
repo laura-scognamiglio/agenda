@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 32 32">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+</metadata>
+<defs/>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path stroke="#ddbea9" stroke-width="1" d="M12.1525+15.8613L19.7843+15.8613L19.7843+17.1333L12.1525+17.1333L12.1525+15.8613Z" fill="#ddbea9" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#ddbea9" stroke-width="1" d="M15.2614+12.6805L16.565+12.6805L16.565+20.5021L15.2614+20.5021L15.2614+12.6805Z" fill="#ddbea9" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#ddbea9" stroke-width="1" d="M15.9974+4.96376C9.36997+4.96376+3.99739+10.3363+3.99739+16.9638C3.99739+23.5912+9.36997+28.9638+15.9974+28.9638C22.6248+28.9638+27.9974+23.5912+27.9974+16.9638C27.9974+10.3363+22.6248+4.96376+15.9974+4.96376Z" fill="none" stroke-linecap="butt" opacity="1" stroke-linejoin="miter"/>
+</g>
+</svg>
